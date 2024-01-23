@@ -1,0 +1,99 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa-texto {
+    width: 600px;
+
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+button {
+    font-size: 25px;
+    background-color: #017143;
+    border-radius: 40px;
+    color: #ffffff;
+    border: none;
+    padding: 25px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 700px;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 600px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.img1 {
+    width: 340px;
+    z-index: 2;
+}
+
+.img-pequena:hover {
+    transform: translateY(-35px);
+
+}
+
+.img-pequena {
+    width: 60px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.circulo {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+}
+
